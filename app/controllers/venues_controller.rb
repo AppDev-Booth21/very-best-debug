@@ -33,7 +33,7 @@ class VenuesController < ApplicationController
     venue.save
 
     #redirect_to("/venues/#{venue.name}")
-    redirect_to("/venues/#{@the_venue.id}")
+    redirect_to("/venues/#{venue.id}")
   end
   
   def update
